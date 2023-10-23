@@ -25,14 +25,13 @@ class Result {
     // Write your code here
         
         // Went for some iterative approach here before dropping it
+        
         // int n = arr.size();
         
         // int[] solution_prices = new int[n];
-        
         // int[][] price_combinations = new int[n*n][n];
-        
         // for (int i = 0; i < n; i++) {
-            
+        
         // }
     
         return icecreamRecurse(m, arr, 2);
@@ -41,6 +40,7 @@ class Result {
     static List<Integer> icecreamRecurse(int m, List<Integer> arr, int i) {
         
         // Attempted an algorithm modeled off of ConstructSubset from the textbook, but couldn't get it working right
+        
         // if (m == 0) return new ArrayList<Integer>();
         // if (m < 0 || i == 0) return null;
         // List<Integer> flavorsChosen = icecreamRecurse(m, arr, i-1);
